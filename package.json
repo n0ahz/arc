@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/n0ahz/arc/issues"
   },
-  "homepage": "https://github.com/n0ahz/arc#readme"
+  "homepage": "https://github.com/n0ahz/arc#readme",
+  "dependencies": {
+    "gulp": "^4.0.2"
+  }
 }

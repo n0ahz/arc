@@ -9,10 +9,10 @@ function defaultTask(cb) {
 
 function serve() {
     browserSync.init({
-        server: "./src",
+        server: "./app",
         open: false,
     });
-    gulp.watch("./src/*.html").on("change", reload);
+    gulp.watch("./app/*.html").on("change", reload);
 }
 
 

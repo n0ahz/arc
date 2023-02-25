@@ -4,6 +4,7 @@
   "description": "generic responsive design theme by HZ",
   "main": "index.js",
   "scripts": {
+    "start": "gulp serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

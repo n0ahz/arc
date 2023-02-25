@@ -13,7 +13,7 @@ function defaultTask(cb) {
 function buildCSS() {
     return gulp.src("src/scss/*.scss")
         .pipe(sass())
-        .pipe(gulp.dest("dist/css"))
+        .pipe(gulp.dest("app/css"))
         .pipe(browserSync.stream());
 }
 
